@@ -19,7 +19,22 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    
+    NSNumber *a = [NSNumber numberWithInt:6];
+    NSNumber *b = [NSNumber numberWithInt:7];
+    NSNumber *c = [NSNumber numberWithInt:0];
+    NSNumber *d = [NSNumber numberWithInt:-1];
+    NSArray *arr = [NSArray arrayWithObjects:a,b,c,d,nil];
+
+    // Sort arr here and then NSLog the result
+}
+
+- (NSArray *)selectionSort:(NSArray *)onArray {
+    return onArray; // CLEARLY THIS IS WRONG
+}
+
+- (NSArray *)quickSort:(NSArray *)onArray {
+    return onArray; // CLEARLY THIS IS WRONG
 }
 
 @end

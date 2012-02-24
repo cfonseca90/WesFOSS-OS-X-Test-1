@@ -12,4 +12,7 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (NSArray *)selectionSort:(NSArray *)onArray;
+- (NSArray *)quickSort:(NSArray *)onArray;
+
 @end
